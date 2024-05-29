@@ -22,6 +22,8 @@ Binary Search Tree Class (class BinarySearchTree):
 
 
 
+
+
         Node* insertNode(Node* node, int value) {
     if (node == NULL) {
         node = new Node();  // Creating a new node
@@ -38,6 +40,9 @@ Binary Search Tree Class (class BinarySearchTree):
 
         minValueNode: Finds the node with the minimum value in a subtree.
         deleteNode: Deletes a node from the tree while maintaining its binary search property.
+
+
+
 
 
         Node* deleteNode(Node* node, int value) {  // Deleting a node
@@ -66,6 +71,8 @@ Binary Search Tree Class (class BinarySearchTree):
 
 
 
+
+
         inorder: Performs an inorder traversal of the tree.
 
             void inorder(Node* node) {  // Inorder traversal
@@ -83,7 +90,5 @@ Binary Search Tree Class (class BinarySearchTree):
         remove: Removes a value from the binary search tree.
         printInorder: Prints the elements of the binary search tree in inorder traversal.
 
-Main Function:
 
-    Demonstrates the usage of the BinarySearchTree class by creating a tree object, inserting elements, and performing removal operation.
-    Prints the inorder traversal of the tree before and after removal.
+
