@@ -14,11 +14,10 @@ Node Structure (struct Node):
 
 
 
-Binary Search Tree Class (class BinarySearchTree):
-
-    Provides functionalities to manipulate the binary search tree.
+Binary Search Tree Class (class BinarySearchTree)
+Provides functionalities to manipulate the binary search tree.
     Private Methods:
-        insertNode: Inserts a new node into the tree while maintaining its binary search property.
+        insertNode: Inserts a new node into the tree while maintaining its binary search property:
 
 
 
@@ -38,8 +37,8 @@ Binary Search Tree Class (class BinarySearchTree):
 }
 
 
-        minValueNode: Finds the node with the minimum value in a subtree.
-        deleteNode: Deletes a node from the tree while maintaining its binary search property.
+minValueNode: Finds the node with the minimum value in a subtree.
+deleteNode: Deletes a node from the tree while maintaining its binary search property:
 
 
 
@@ -73,7 +72,9 @@ Binary Search Tree Class (class BinarySearchTree):
 
 
 
-        inorder: Performs an inorder traversal of the tree.
+ inorder: Performs an inorder traversal of the tree:
+
+
 
             void inorder(Node* node) {  // Inorder traversal
         if (node != NULL) { 
